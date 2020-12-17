@@ -1,0 +1,24 @@
+.user-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.user-input label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.user-input input {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.user-input button {
+  flex: 0 0 100%;
+  max-width: 150px;
+  margin: 0 auto;
+}

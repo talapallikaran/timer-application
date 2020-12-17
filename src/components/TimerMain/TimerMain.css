@@ -1,0 +1,28 @@
+.main-timer-view .timer-time {
+  font-size: 150px;
+  font-weight: 700;
+}
+.play-pause-button {
+  font-size: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.timer-timesup {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.timer-time.blinking {
+  animation: blink 1s infinite;
+}

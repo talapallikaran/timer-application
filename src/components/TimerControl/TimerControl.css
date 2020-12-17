@@ -1,0 +1,10 @@
+.timer-speed-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer-speed-controls button{
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    border: 1px solid #FFFFFF;
+}
